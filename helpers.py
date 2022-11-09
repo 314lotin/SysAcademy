@@ -18,7 +18,7 @@ def escreveJSON(aluno_lista):
 ##
 
 
-## Tenta abrir o arquivo e jogar os dados para a variavel 'json_object', que vai ser editada e salva novamente no arquivo json
+## Tenta abrir o arquivo e retornar uma varivel lista, onde vai ser salvo os alunos em forma de dicionário
 def arqToVar():
     try:
         with open("listaalunos.json", encoding="utf-8") as arq:
